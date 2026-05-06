@@ -4,7 +4,7 @@
   "description": "Client demo for a curated fashion resale marketplace.",
   "main": "index.js",
   "scripts": {
-    "dev": "concurrently \"npm run dev --prefix frontend\" \"npm run dev --prefix Backend\"",
+    "dev": "node init && concurrently \"npm run dev --prefix frontend\" \"npm run dev --prefix Backend\"",
     "test": "echo \"No root tests configured\""
   },
   "keywords": [],

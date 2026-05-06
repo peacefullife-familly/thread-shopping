@@ -4,7 +4,7 @@
   "description": "Express API for the fashion marketplace demo.",
   "main": "src/server.js",
   "scripts": {
-    "dev": "node src/server.js",
+    "dev": "node init && node src/server.js",
     "test": "echo \"No backend tests configured\""
   },
   "keywords": [],
